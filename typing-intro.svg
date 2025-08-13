@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <mask id="reveal">
+      <rect x="0" y="0" width="0" height="60" fill="#ffffff">
+        <animate attributeName="width" from="0" to="900" dur="3s" fill="freeze" />
+      </rect>
+    </mask>
+  </defs>
+  <rect x="0" y="0" width="900" height="60" fill="#000000" />
+  <g mask="url(#reveal)">
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="28" font-weight="700">Hi, I'm Aaryan — I build things with code 🚀</text>
+  </g>
+  <rect x="0" y="12" width="2" height="36" fill="#ffffff">
+    <animate attributeName="x" from="0" to="900" dur="3s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  </rect>
+</svg>
+
+
